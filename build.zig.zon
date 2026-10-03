@@ -1,0 +1,29 @@
+.{
+    .name = .hello_triangle,
+    .version = "0.0.1",
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .vulkan_headers = .{
+            .url = "https://github.com/KhronosGroup/Vulkan-Headers/archive/v1.3.283.tar.gz",
+            .hash = "N-V-__8AAAkkoQGn5z1yoNVrwqZfnYmZp8AZ5CJgoHRMQI0c",
+        },
+        .glfw = .{
+            .url = "git+https://github.com/allyourcodebase/glfw#74b53d74a79f66af4e0c620dd37a38796f015770",
+            .hash = "glfw-0.0.0-R5AeUroIGgByZTBiH9I-eE2y7IQ5H3Vmqi9_67OFLOZ2",
+        },
+        .translate_c = .{
+            .url = "git+https://codeberg.org/ziglang/translate-c?ref=zig-0.16.x#6fe0ffc4549f15c5f2d9432c2b4460ba90ff85ac",
+            .hash = "translate_c-1.0.0-Q_BUWo_5BgD4flHdUhA31zOz0XvZk9k7lQv1ouzyNXj2",
+        },
+        .vulkan_zig = .{
+            .url = "git+https://github.com/Snektron/vulkan-zig?ref=zig-0.16-compat#b496a6a561ffbbeb530b0f9ed4e059f88c0723a5",
+            .hash = "vulkan-0.0.0-r7Ytx7N9AwD7IZt5_XNHtkJ4G9qY0pCH-cpcOsbL8wzD",
+        },
+        .dear_imgui = .{
+            .url = "git+https://codeberg.org/Games-by-Mason/dear_imgui_zig#f2106a08785bdcb7e19f44e6f6457418847b00b0",
+            .hash = "dear_imgui-1.0.0-vUBA9XbVoABP2xVhRL_WNAvWKOAg6XJQ9k1h0PY6Zbb4",
+        },
+    },
+    .paths = .{""},
+    .fingerprint = 0x6dab3c0c88d52f9b,
+}
